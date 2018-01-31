@@ -1,5 +1,5 @@
-# Wiki Content Tree Feature Improvement Project
-# 維基百科目錄樹改進功能項目
+# Wiki Content Tree Feature Improvement Project  
+維基百科目錄樹改進功能項目
 
 請看Design Documentation.txt來了解項目細節。
 
