@@ -1,6 +1,6 @@
 # Wiki Content Tree Feature Improvement Design Documentation <br />維基百科目錄樹改進功能設計文檔
 
-在維基的每一個詞條中改進現有目錄樹的功能。
+在維基的每一個詞條中改進現有目錄樹的功能。<br />
 1 在每一層中加入展開(圖標是+)與收起(圖標是-)按鈕。點一下展開按鈕，該層標題下面所有子標題展開。點一下收起按鈕，該層標題所有子標題收起。例如，假設當前目錄樹如下：
 
 ![Content Tree](Content%20Tree%20View%20Docs%20Pic.png)
