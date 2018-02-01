@@ -3,6 +3,7 @@
 在維基的每一個詞條中改進現有目錄樹的功能。
 1 在每一層中加入展開(圖標是+)與收起(圖標是-)按鈕。點一下展開按鈕，該層標題下面所有子標題展開。點一下收起按鈕，該層標題所有子標題收起。例如，假設當前目錄樹如下：
 
+![Content Tree](Content Tree View Docs Pic.png)
 ![preview1](Wiki-Content-Tree-Feature-Improvement/Content Tree View Docs Pic.png)
 
 在 1.2 Title Level 2-1-2的右邊加入一個動態的展開/收起（+/-）按鈕。
