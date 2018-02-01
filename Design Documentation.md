@@ -1,2 +1,19 @@
-項目設計文檔請看如下鏈接：<br />
-[https://docs.google.com/document/d/1_MR8RTvkibvmdoF47Ung8jxU7V6zd-mD_HNAj_Edvbo/edit?usp=sharing](https://docs.google.com/document/d/1_MR8RTvkibvmdoF47Ung8jxU7V6zd-mD_HNAj_Edvbo/edit?usp=sharing)
+# Wiki Content Tree Feature Improvement Design Documentation<br />
+維基百科目錄樹改進功能設計文檔
+
+在維基的每一個詞條中改進現有目錄樹的功能。
+1 在每一層中加入展開(圖標是+)與收起(圖標是-)按鈕。點一下展開按鈕，該層標題下面所有子標題展開。點一下收起按鈕，該層標題所有子標題收起。例如，假設當前目錄樹如下：
+
+![preview1](/Content Tree View Docs Pic.png)
+
+在 1.2 Title Level 2-1-2的右邊加入一個動態的展開/收起（+/-）按鈕。
+如果當前是展開狀態，展示收起按鈕（-），如果再點一下，就會收起（1.2.1 Title Level 3-1-2-1和1.2.2 Title Level 3-1-2-2都會收起）。
+如果當前是收起狀態，展示展開按鈕（+），如果再點一下，就會展開（1.2.1 Title Level 3-1-2-1和1.2.2 Title Level 3-1-2-2都會展開）。如果展開的某個子標題還有子標題，那就根據該子標題的展開/收起狀態來決定是否要展開或者收起它的子標題，保持該子標題原有的展開/收起狀態。例如，假設點擊1 Title level 1-1的展開按鈕，1.1和1.3都全部展開，對於1.2，根據當前1.2的狀態來決定是否要展開屬於1.2的2個子標題。如果他們在點擊之前是展開狀態，則展開，否則，就收起。
+
+2 在每一個標題後面添加一個有圖標的返回按鈕。若用戶點擊返回按鈕，則返回目錄樹。
+
+3 寫一個批處理程序把現有的詞條數據轉變成支持改進後的目錄樹功能的數據。盡量少批量改動舊數據就能支持以上兩點新功能。
+
+4 可以先在MediaWiki上實現以上功能，再和Wikipedia員工反映這個功能與實現。MediaWiki是一個開源項目，可以在自己的電腦上搭，所以可以在此實現。
+鏈接：
+[https://www.mediawiki.org/wiki/MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
