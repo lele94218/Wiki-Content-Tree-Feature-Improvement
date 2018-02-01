@@ -5,7 +5,7 @@
 
 ![alt text](https://www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
-![Content Tree](Content Tree View Docs Pic.png)
+![Content Tree](Content%20Tree%20View%20Docs%20Pic.png)
 ![preview1](Wiki-Content-Tree-Feature-Improvement/Content Tree View Docs Pic.png)
 
 在 1.2 Title Level 2-1-2的右邊加入一個動態的展開/收起（+/-）按鈕。
