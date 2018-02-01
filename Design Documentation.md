@@ -1,4 +1,4 @@
-# Wiki Content Tree Feature Improvement Design Documentation<br />
+# Wiki Content Tree Feature Improvement Design Documentation <br />
 維基百科目錄樹改進功能設計文檔
 
 在維基的每一個詞條中改進現有目錄樹的功能。
@@ -14,6 +14,6 @@
 
 3 寫一個批處理程序把現有的詞條數據轉變成支持改進後的目錄樹功能的數據。盡量少批量改動舊數據就能支持以上兩點新功能。
 
-4 可以先在MediaWiki上實現以上功能，再和Wikipedia員工反映這個功能與實現。MediaWiki是一個開源項目，可以在自己的電腦上搭，所以可以在此實現。
+4 可以先在MediaWiki上實現以上功能，再和Wikipedia員工反映這個功能與實現。MediaWiki是一個開源項目，可以在自己的電腦上搭，所以可以在此實現。 <br />
 鏈接：
 [https://www.mediawiki.org/wiki/MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)
